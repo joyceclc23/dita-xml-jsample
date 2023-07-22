@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"power_consumption_and_calculation-d192e20":{"topics":[{"title":"Power Calculator","href":"power_calculator.html","attributes":{"data-id":"power_calculator"},"menu":{"hasChildren":true},"tocID":"power_calculator-d192e28","next":"power_calculator-d192e28"}]}};

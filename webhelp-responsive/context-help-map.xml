@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="introduction" path="introduction.html"/>
+   <appContext helpID="power_consumption_and_calculation"
+               path="power_consumption_and_calculation.html"/>
+   <appContext helpID="power_calculator" path="power_calculator.html"/>
+   <appContext helpID="typical_and_worst_case_process"
+               path="typical_and_worst_case_process.html"/>
+   <appContext helpID="junction_temperature" path="junction_temperature.html"/>
+   <appContext helpID="maximum_safe_ambient_temperature"
+               path="maximum_safe_ambient_temperature.html"/>
+   <appContext helpID="thermal_management" path="thermal_management.html"/>
+   <appContext helpID="thermal_impedance_and_airflow"
+               path="thermal_impedance_and_airflow.html"/>
+   <appContext helpID="thermal_management_in_power_calculator_0"
+               path="thermal_management_in_power_calculator_0.html"/>
+   <appContext helpID="conclusion" path="conclusion.html"/>
+</map>

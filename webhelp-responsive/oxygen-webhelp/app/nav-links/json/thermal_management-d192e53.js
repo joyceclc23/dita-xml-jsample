@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"thermal_management-d192e53":{"topics":[{"title":"Thermal Impedance and Airflow","href":"thermal_impedance_and_airflow.html","attributes":{"data-id":"thermal_impedance_and_airflow"},"menu":{"hasChildren":false},"tocID":"thermal_impedance_and_airflow-d192e61","topics":[]}]}};
