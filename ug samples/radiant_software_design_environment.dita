@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="radiant_software_design_environment">
+    <title>Radiant Software Design Environment</title>
+    <shortdesc>This chapter provides background and discussion on the technology and methodology
+        underlying the Radiant software design environment.</shortdesc>
+    <conbody>
+        <p>Understanding some of the fundamental concepts behind the Radiant software framework
+            technology will increase your proficiency with the tool and allow you to quickly come up
+            to speed on its use.</p>
+        <p>The Radiant software is a next-generation software design environment that uses a new
+            project-based methodology. A single project can contain multiple implementations and
+            strategies to provide easily managed alternate design structures and tool settings</p>
+        <p>The process flow is managed at a system level with run management controls and reporting.
+            Context-sensitive views ensure that you only see the data that is available for the
+            current state in the process flow.</p>
+        <p>The shared memory technology enables many of the advanced functions in the Radiant
+            software. Easy cross-probing between tool views and faster process loops are among the
+            benefits.</p>
+    </conbody>
+</concept>

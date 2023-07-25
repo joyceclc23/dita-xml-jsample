@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_run_the_radiant_software">
+    <title>Running the Radiant Software</title>
+    <shortdesc>This topic describes how to run the Radiant software.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To run the Radiant software, follow these steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Download the software from the Lattice software web page and install the
+                    software.</cmd>
+            </step>
+            <step>
+                <cmd>Select <b>Radiant Software</b> from the installation location. The default
+                    Start page appears, as shown in Figure 1.</cmd>
+                <info>
+                    <fig id="fig_dkw_cxl_fyb">
+                        <p>
+                            <fig id="fig_wp5_myl_fyb">
+                                <title>Figure 1. Default Start Page</title>
+                                <image href="images/screenshot1.png" id="image_xp5_myl_fyb"/>
+                            </fig>
+                        </p>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links>
+        <link href="creating_a_new_project.dita"/>
+    </related-links>
+</task>

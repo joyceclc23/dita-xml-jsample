@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="radiant_software_advanced_features">
+    <title>Radiant Software Advanced Features</title>
+    <shortdesc>This chapter explains advanced concepts, features and operational methods for the
+        Radiant software.</shortdesc>
+    <conbody>
+        <p>The Radiant software has the following advanced features and operational methods:<ul
+                id="ul_jxx_vkp_fyb">
+                <li>Shared memory environment</li>
+                <li>Customizable environment and tool options</li>
+                <li>Batch tool operation</li>
+                <li>Project archiving</li>
+            </ul></p>
+    </conbody>
+</concept>

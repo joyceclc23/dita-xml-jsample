@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="start_page">
+    <title>Start Page</title>
+    <shortdesc>This section describes the major sections of the Start Page in the Radiant
+        software.</shortdesc>
+    <conbody>
+        <p>The Start Page contains the following three major sections:<ul id="ul_dfz_r2p_fyb">
+                <li><b>Project</b>: This section allows you to create a new project; open an
+                    existing Project, and open an example.</li>
+                <li><b>Information Center</b>: This section has links to Getting Started, Tutorials,
+                    User Guides, and Support Center.</li>
+                <li><b>Recent Project List</b>: Provides a quick way to load a recent project you’ve
+                    been working on.</li>
+            </ul></p>
+        <p>The Start Page appears in the View area by default when the Radiant software is first
+            launched, and can be opened from the View tab on the menu. The Start Page can be closed,
+            opened, detached, and attached using the Attach button.</p>
+        <p> See <xref href="basic_ui_controls.dita"/>.</p>
+    </conbody>
+</concept>
