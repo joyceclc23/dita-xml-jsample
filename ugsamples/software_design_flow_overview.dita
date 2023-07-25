@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="software_design_flow_overview">
+    <title>Software Design Flow Overview</title>
+    <shortdesc>This chapter describes the design flow in the Radiant software. Running processes and
+        controlling the flow for alternate what-if scenarios are explained.</shortdesc>
+    <conbody>
+        <p>The FPGA implementation design flow in the Radiant software provides extensive what-if
+            analysis capabilities for your design. The design flow is displayed in the Task Detail
+            View at the right end of the Process Toolbar.</p>
+        <fig id="fig_tfh_2jw_fyb">
+            <title>Figure 54. Design Flow in Task Detail View</title>
+            <image href="images/designflowscreen.png" id="image_ufh_2jw_fyb"/>
+        </fig>
+    </conbody>
+</concept>

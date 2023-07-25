@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="adding_implementations">
+    <title>Adding Implementations</title>
+    <shortdesc>This section describes how to add implementations.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To add a new implementation to an existing project:, follow these steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Right-click the project name in the File List project view.</cmd>
+            </step>
+            <step>
+                <cmd>Select <menucascade>
+                        <uicontrol>Add</uicontrol>
+                        <uicontrol>New Implementation</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>In the <wintitle>New Implementation</wintitle> dialog box, set the
+                    implementation name, directory, and default strategy.</cmd>
+            </step>
+            <step>
+                <cmd>To browse for the source files or use a source from an existing implementation,
+                    click on <uicontrol>Add Source</uicontrol>. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

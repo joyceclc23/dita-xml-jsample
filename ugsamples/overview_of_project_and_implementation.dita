@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="overview_of_project_and_implementation">
+    <title>Overview of Project and Implementation</title>
+    <shortdesc>This chapter covers projects and their elements. Implementations and strategies are
+        explained and some common project tasks are shown. </shortdesc>
+    <conbody>
+        <p></p>
+        <section id="section_z4c_5ts_fyb">
+            <title>Projects</title>
+            <p>A project is the top organizational element in the Radiant software design
+                environment. Projects consist of design, constraint, configuration and analysis
+                files. Only one project can be open at a time, and a single project can include
+                multiple design structures and tool settings.</p>
+            <p>The Project menu commands enable you to do the following: <ul id="ul_hzw_45s_fyb">
+                    <li>Examine the project properties.</li>
+                    <li>Change the target device.</li>
+                    <li>Change the severity level of warning messages</li>
+                    <li>Set the synthesis tool</li>
+                    <li>Show the active strategy tool settings</li>
+                    <li>Set the top level design unit.</li>
+                </ul></p>
+            <p/>
+        </section>
+        <section id="section_ccq_x5s_fyb">
+            <title>Implementations</title>
+            <p>An implementation is the structure of a design and can be thought of as what is in
+                the design. For example, one implementation might use inferred memory while another
+                implementation uses instantiated memory. Implementations also define the constraint
+                and analysis parameters for a project.</p>
+            <p>There can be multiple implementations in a project, but only one implementation can
+                be active at a time. And there must be one active implementation. Every
+                implementation has an associated active strategy. Strategies are a shared pool of
+                resources for all implementations and are discussed in the next section. An
+                implementation is created whenever you create a new project.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <link href="adding_implementations.dita"/>
+        <link href="cloning_implementations.dita"/>
+    </related-links>
+</concept>

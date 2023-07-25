@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="untitled14">
+    <title>Cloning Implementations</title>
+    <shortdesc>This section describes how to clone implementations. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To clone an implementation, follow these steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>In the File List view, right-click on the name of the implementation that you
+                    want to copy and choose <uicontrol>Clone Implementation</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Clone Implementation</wintitle>dialog box, enter a name for
+                    the new implementation. This name also becomes the default name for the folder
+                    of the implementation.</cmd>
+            </step>
+            <step>
+                <cmd>Change the name of the implementation’s folder in the Directory text box, if
+                    desired.</cmd>
+            </step>
+            <step>
+                <cmd>Decide how you want to handle files that are outside of the original
+                    implementation directory. Select one of the following options:</cmd>
+                <choices id="choices_p3p_pzs_fyb">
+                    <choice>Continue to use the existing references</choice>
+                    <choice>Copy files to new implementation source directory</choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>
