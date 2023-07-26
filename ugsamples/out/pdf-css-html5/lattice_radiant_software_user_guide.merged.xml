@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
+<map xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:xs="http://www.w3.org/2001/XMLSchema" cascade="merge" class="- map/map " collection-type="-dita-use-conref-target" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:48" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">Lattice Radiant Software User Guide</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title class="- topic/title ">Lattice Radiant Software User Guide</title>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Introduction"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d134e14">Introduction</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="introduction_to_lattice_radiant_software"><resourceid appid="introduction_to_lattice_radiant_software" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction to Lattice Radiant Software</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This user guide describes the main features, usage, and key concepts of the Radiant         software design environment. It should be used in conjunction with the Release Notes and         reference documentation included with the product software. The Release Notes document is         also available on the Lattice website and provides a list of supported devices</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="basic_design_prerequisites"><resourceid appid="basic_design_prerequisites" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Basic Design Prerequisites</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Using the Lattice Radiant software to create a basic FPGA design requires the         following prerequisite knowledge and software installation and licensing:</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Getting Started"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d134e38">Getting Started</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_3" type="task"><topicmeta class="- map/topicmeta " data-topic-id="how_to_run_the_radiant_software"><resourceid appid="how_to_run_the_radiant_software" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Running the Radiant Software</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This topic describes how to run the Radiant software.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="task"><topicmeta class="- map/topicmeta " data-topic-id="creating_a_new_project"><resourceid appid="creating_a_new_project" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Creating a New Project</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This topic describes how to create a new project in the Radiant software.</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Design Environment Fundamentals"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d134e62">Design Environment Fundamentals</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="radiant_software_design_environment"><resourceid appid="radiant_software_design_environment" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Radiant Software Design Environment</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This chapter provides background and discussion on the technology and methodology         underlying the Radiant software design environment.</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="User Interface Operation"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d134e75">User Interface Operation</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="radiant_software_user_interface_operation"><resourceid appid="radiant_software_user_interface_operation" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Radiant Software User Interface Operation </navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This chapter describes the user interface, controls, and basic operation of the         Radiant software layout you choose.</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="start_page"><resourceid appid="start_page" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Start Page</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This section describes the major sections of the Start Page in the Radiant         software.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_8" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="menus_and_toolbars"><resourceid appid="menus_and_toolbars" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Menus and Toolbars</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This section describes the functionality of the menus and toolbars in the Radiant         software.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_9" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="basic_ui_controls"><resourceid appid="basic_ui_controls" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">Basic UI Controls</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This section describes the basic UI controls for the Radiant software.</shortdesc></topicmeta></topicref></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Working with Projects"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d134e122">Working with Projects</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_10" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="overview_of_project_and_implementation"><resourceid appid="overview_of_project_and_implementation" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">Overview of Project and Implementation</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This chapter covers projects and their elements. Implementations and strategies are         explained and some common project tasks are shown. </shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_11" type="task"><topicmeta class="- map/topicmeta " data-topic-id="adding_implementations"><resourceid appid="adding_implementations" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">Adding Implementations</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This section describes how to add implementations.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_12" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled14"><resourceid appid="untitled14" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">Cloning Implementations</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This section describes how to clone implementations. </shortdesc></topicmeta></topicref></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Radiance Software Design Flow"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d134e157">Radiance Software Design Flow</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_13" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="software_design_flow_overview"><resourceid appid="software_design_flow_overview" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_13" class="- topic/navtitle ">Software Design Flow Overview</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This chapter describes the design flow in the Radiant software. Running processes and         controlling the flow for alternate what-if scenarios are explained.</shortdesc></topicmeta></topicref></topichead>
+    <topichead audience="expert" is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Advanced Topics"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d134e170">Advanced Topics</navtitle></topicmeta><topicref audience="expert" class="- map/topicref " href="#unique_14" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="radiant_software_advanced_features"><resourceid appid="radiant_software_advanced_features" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_14" class="- topic/navtitle ">Radiant Software Advanced Features</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This chapter explains advanced concepts, features and operational methods for the         Radiant software.</shortdesc></topicmeta><topicref audience="expert" class="- map/topicref " href="#unique_15" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="shared_memory_environment"><resourceid appid="shared_memory_environment" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_15" class="- topic/navtitle ">Shared Memory Environment</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This section describes the shared memory environment features for expert Radiant         software users.</shortdesc></topicmeta><topicref audience="expert" class="- map/topicref " href="#unique_16" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="clear_tool_memory"><resourceid appid="clear_tool_memory" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_16" class="- topic/navtitle ">Clear Tool Memory</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This section describes the Clear Tool Memory feature for expert Radiant software         users.</shortdesc></topicmeta></topicref></topicref></topicref></topichead>
+</opentopic:map><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d134e14" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Introduction</ph></title><concept class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="introduction_to_lattice_radiant_software" oid="introduction_to_lattice_radiant_software" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Introduction to Lattice Radiant Software</ph></title>
+    <shortdesc class="- topic/shortdesc ">This user guide describes the main features, usage, and key concepts of the Radiant
+        software design environment. It should be used in conjunction with the Release Notes and
+        reference documentation included with the product software. The Release Notes document is
+        also available on the Lattice website and provides a list of supported devices</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Lattice Radiant® software is the leading-edge software design environment for cost-
+            sensitive, low-power Lattice Field Programmable Gate Arrays (FPGA) architectures. The
+            Radiant software integrated tool environment provides a modern, comprehensive user
+            interface for controlling the Lattice Semiconductor FPGA implementation process. Its
+            combination of new and enhanced features allows users to complete designs faster, more
+            easily, and with better results than ever before.</p>
+        <section class="- topic/section " id="unique_1_Connect_42_section_ds5_yzh_fyb" nd:nd-id="section_ds5_yzh_fyb">
+            <title class="- topic/title ">Radiant Software Overview</title>
+            <p class="- topic/p ">The Radiant software uses an expanded project-based design flow and integrated tool
+                views so that design alternatives and what-if scenarios can easily be created and
+                analyzed. The Implementations and Strategies concepts provide a convenient way for
+                users to try alternate design structures and manage multiple tool settings.</p>
+            <p class="- topic/p ">System-level information—including process flow, hierarchy, and file lists—is
+                available, along with integrated HDL code checking and consolidated reporting
+                features.</p>
+            <p class="- topic/p ">A fast Timing Analysis loop and Programmer provide capabilities in the integrated
+                framework. The cross-probing feature and the shared memory architecture ensure fast
+                performance and better memory utilization.</p>
+            <p class="- topic/p ">The Radiant software is highly customizable and provides Tcl scripting capabilities
+                from either its built-in console or from an external shell.</p>
+            <p class="- topic/p ">The Radiant software has many of the same features as Lattice Diamond software, and
+                adds new features, such as:<ul class="- topic/ul " id="unique_1_Connect_42_ul_gft_513_fyb" nd:nd-id="ul_gft_513_fyb">
+                    <li class="- topic/li ">Constraints support utilizing industry standard SDC format.</li>
+                    <li class="- topic/li ">Efficient, easy-to-use integrated graphical user interface (GUI) with a new
+                        look-and-feel that gives users more efficient access to popular tools.</li>
+                    <li class="- topic/li ">Unified timing analysis engine with enhanced timing reports for faster
+                        design timing closure.</li>
+                </ul></p>
+        </section>
+    </conbody>
+</concept><concept class="- topic/topic concept/concept " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="basic_design_prerequisites" oid="basic_design_prerequisites" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Basic Design Prerequisites</ph></title>
+    <shortdesc class="- topic/shortdesc ">Using the Lattice Radiant software to create a basic FPGA design requires the
+        following prerequisite knowledge and software installation and licensing:</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Using the Lattice Radiant software to create a basic FPGA design requires the following
+            prerequisite knowledge and software installation and licensing:</p>
+        <p class="- topic/p "/>
+        <section class="- topic/section " id="unique_2_Connect_42_prereq_knowledge" nd:nd-id="prereq_knowledge">
+            <title class="- topic/title ">Prerequisite Knowledge</title>
+            <p class="- topic/p ">To use the Lattice Radient software, you will need the following knowledge:<ul class="- topic/ul " id="unique_2_Connect_42_ul_kpg_xg3_fyb" nd:nd-id="ul_kpg_xg3_fyb">
+                    <li class="- topic/li ">Basic knowledge of digital design</li>
+                    <li class="- topic/li ">Basic knowledge of VHDL, Verilog HDL, System Verilog, or schematic tools
+                    </li>
+                </ul></p>
+        </section>
+        <section class="- topic/section " id="unique_2_Connect_42_prereq_software_licensing" nd:nd-id="prereq_software_licensing">
+            <title class="- topic/title ">Prerequisite Software and Licensing</title>
+            <p class="- topic/p ">To use the Lattice Radiant software, your system must first meet the minimum Windows
+                or Linux system requirements for installation. Next, download and install the
+                software components. You must purchase a license for any applicable software prior
+                to using the software.</p>
+            <p class="- topic/p ">The Lattice Radiant software is available for download from the <xref class="- topic/xref " format="html" href="https://www.latticesemi.com/latticeradiant" scope="external"><?ditaot usertext?>Lattice Radiant Downloads and Licensing web page</xref>. Click the
+                    <uicontrol class="+ topic/ph ui-d/uicontrol ">Downloads</uicontrol> tab. Some documents and downloads are not
+                visible. To view all items, log in to your Lattice account. Follow the product
+                download instructions and uncompress the software.</p>
+        </section>
+    </conbody>
+</concept></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d134e38" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Getting Started</ph></title><task class="- topic/topic task/task " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="how_to_run_the_radiant_software" oid="how_to_run_the_radiant_software" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Running the Radiant Software</ph></title>
+    <shortdesc class="- topic/shortdesc ">This topic describes how to run the Radiant software.</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">To run the Radiant software, follow these steps:</p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Download the software from the Lattice software web page and install the
+                    software.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Select <b class="+ topic/ph hi-d/b ">Radiant Software</b> from the installation location. The default
+                    Start page appears, as shown in Figure 1.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_3_Connect_42_fig_dkw_cxl_fyb" nd:nd-id="fig_dkw_cxl_fyb"><p class="- topic/p ">
+                            <fig class="- topic/fig " id="unique_3_Connect_42_fig_wp5_myl_fyb" nd:nd-id="fig_wp5_myl_fyb"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Figure 1. Default Start Page</ph></title><image class="- topic/image " dita-ot:image-width="642" dita-ot:image-height="357" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/screenshot1.png" id="unique_3_Connect_42_image_xp5_myl_fyb" nd:nd-id="image_xp5_myl_fyb" placement="inline"/></fig>
+                        </p></fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links class="- topic/related-links ">
+        <link class="- topic/link " href="#unique_4" type="task"><?ditaot gentext?><linktext class="- topic/linktext ">Creating a New Project</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">This topic describes how to create a new project in the Radiant software.</desc></link>
+    </related-links>
+</task><task class="- topic/topic task/task " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="creating_a_new_project" oid="creating_a_new_project" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Creating a New Project</ph></title>
+    <shortdesc class="- topic/shortdesc ">This topic describes how to create a new project in the Radiant software.</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">A project is a collection of all files necessary to create and download your design
+            to the selected device. The New Project wizard guides you through the steps of
+            specifying a project name and location, selecting a target device, and adding existing
+            sources to the new project.<note class="- topic/note " id="unique_4_Connect_42_note_cvx_gym_fyb" nd:nd-id="note_cvx_gym_fyb">Do not place more than one
+                project in the same directory.</note><p class="- topic/p ">To create a new project, follow these
+                steps:</p></context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">From the Radiant main menu, click the <uicontrol class="+ topic/ph ui-d/uicontrol ">New Project</uicontrol>
+                    <image class="- topic/image " dita-ot:image-width="16" dita-ot:image-height="17" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/newprojectbutton.png" id="unique_4_Connect_42_image_rmq_scn_fyb" nd:nd-id="image_rmq_scn_fyb" placement="inline"/> button, or
+                    choose <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;17:41" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/creating_a_new_project.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">File </uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">New</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Project </uicontrol></menucascade>. </cmd>
+                <info class="- topic/itemgroup task/info ">The New Project confirmation window opens, as shown in Figure 2.<fig class="- topic/fig " id="unique_4_Connect_42_fig_ttc_gcn_fyb" nd:nd-id="fig_ttc_gcn_fyb"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Figure 2. New Project Confirmation Window</ph></title><image class="- topic/image " dita-ot:image-width="337" dita-ot:image-height="294" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/createprojscreen.png" id="unique_4_Connect_42_image_utc_gcn_fyb" nd:nd-id="image_utc_gcn_fyb" placement="inline"/></fig></info>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links class="- topic/related-links ">
+        <link class="- topic/link " href="#unique_3" type="task"><?ditaot gentext?><linktext class="- topic/linktext ">Running the Radiant Software</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">This topic describes how to run the Radiant software.</desc></link>
+    </related-links>
+</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d134e62" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Design Environment Fundamentals</ph></title><concept class="- topic/topic concept/concept " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="radiant_software_design_environment" oid="radiant_software_design_environment" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Radiant Software Design Environment</ph></title>
+    <shortdesc class="- topic/shortdesc ">This chapter provides background and discussion on the technology and methodology
+        underlying the Radiant software design environment.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Understanding some of the fundamental concepts behind the Radiant software framework
+            technology will increase your proficiency with the tool and allow you to quickly come up
+            to speed on its use.</p>
+        <p class="- topic/p ">The Radiant software is a next-generation software design environment that uses a new
+            project-based methodology. A single project can contain multiple implementations and
+            strategies to provide easily managed alternate design structures and tool settings</p>
+        <p class="- topic/p ">The process flow is managed at a system level with run management controls and reporting.
+            Context-sensitive views ensure that you only see the data that is available for the
+            current state in the process flow.</p>
+        <p class="- topic/p ">The shared memory technology enables many of the advanced functions in the Radiant
+            software. Easy cross-probing between tool views and faster process loops are among the
+            benefits.</p>
+    </conbody>
+</concept></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d134e75" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">User Interface Operation</ph></title><concept class="- topic/topic concept/concept " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="radiant_software_user_interface_operation" oid="radiant_software_user_interface_operation" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Radiant Software User Interface Operation </ph></title>
+    <shortdesc class="- topic/shortdesc ">This chapter describes the user interface, controls, and basic operation of the
+        Radiant software layout you choose.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The Radiant user interface (UI) provides a comprehensive, integrated tool environment.
+            The UI is very flexible and configurable, enabling you to store constraints for the
+            layout you choose.</p>
+        <p class="- topic/p "/>
+    </conbody>
+    <related-links class="- topic/related-links ">
+        <link class="- topic/link " href="#unique_7" type="concept"><?ditaot gentext?><linktext class="- topic/linktext ">Start Page</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">This section describes the major sections of the Start Page in the Radiant         software.</desc></link>
+        <link class="- topic/link " href="#unique_8" type="concept"><?ditaot gentext?><linktext class="- topic/linktext ">Menus and Toolbars</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">This section describes the functionality of the menus and toolbars in the Radiant         software.</desc></link>
+        <link class="- topic/link " href="#unique_9" type="concept"><?ditaot gentext?><linktext class="- topic/linktext ">Basic UI Controls</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">This section describes the basic UI controls for the Radiant software.</desc></link>
+    </related-links>
+<concept class="- topic/topic concept/concept " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="start_page" oid="start_page" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Start Page</ph></title>
+    <shortdesc class="- topic/shortdesc ">This section describes the major sections of the Start Page in the Radiant
+        software.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The Start Page contains the following three major sections:<ul class="- topic/ul " id="unique_7_Connect_42_ul_dfz_r2p_fyb" nd:nd-id="ul_dfz_r2p_fyb">
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Project</b>: This section allows you to create a new project; open an
+                    existing Project, and open an example.</li>
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Information Center</b>: This section has links to Getting Started, Tutorials,
+                    User Guides, and Support Center.</li>
+                <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Recent Project List</b>: Provides a quick way to load a recent project you’ve
+                    been working on.</li>
+            </ul></p>
+        <p class="- topic/p ">The Start Page appears in the View area by default when the Radiant software is first
+            launched, and can be opened from the View tab on the menu. The Start Page can be closed,
+            opened, detached, and attached using the Attach button.</p>
+        <p class="- topic/p "> See <xref class="- topic/xref " href="#unique_9" type="concept"><?ditaot gentext?>Basic UI Controls<?ditaot genshortdesc?><desc class="- topic/desc ">This section describes the basic UI controls for the Radiant software.</desc></xref>.</p>
+    </conbody>
+</concept><concept class="- topic/topic concept/concept " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="menus_and_toolbars" oid="menus_and_toolbars" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Menus and Toolbars</ph></title>
+    <shortdesc class="- topic/shortdesc ">This section describes the functionality of the menus and toolbars in the Radiant
+        software.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">At the top of the main window is the menu and toolbar area. High-level controls for
+            accessing tools, managing files and projects, and controlling the layout are contained
+            here. All toolbar functionality is also contained in the menus. The menus also have
+            functions for system, project and toolbar control.</p>
+        <p class="- topic/p ">The Process Toolbar lists all the processes available, such as Synthesize Design, Map
+            Design, Place &amp; Route Design, and Export Files. A process is a specific task in the
+            overall processing of a source or project. You can view the available processes for a
+            design in the Process Toolbar. Click Task Detail View to see detailed information of the
+            processes available.</p>
+    </conbody>
+</concept><concept class="- topic/topic concept/concept " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="basic_ui_controls" oid="basic_ui_controls" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Basic UI Controls</ph></title>
+    <shortdesc class="- topic/shortdesc ">This section describes the basic UI controls for the Radiant software.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The Radiant software environment is based on modern industry standard user interface
+            concepts. The menus, toolbars, and mouse pointer all behave in familiar ways. You can
+            resize any of the window panes, drag and drop elements, right-click a design element to
+            see available actions, and hold the mouse pointer over an object to view the tool tip.
+            Window panes can also be detached from the main window and operated as independent
+            windows.</p>
+    </conbody>
+</concept></concept></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d134e122" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Working with Projects</ph></title><concept class="- topic/topic concept/concept " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="overview_of_project_and_implementation" oid="overview_of_project_and_implementation" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Overview of Project and Implementation</ph></title>
+    <shortdesc class="- topic/shortdesc ">This chapter covers projects and their elements. Implementations and strategies are
+        explained and some common project tasks are shown. </shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+        <section class="- topic/section " id="unique_10_Connect_42_section_z4c_5ts_fyb" nd:nd-id="section_z4c_5ts_fyb">
+            <title class="- topic/title ">Projects</title>
+            <p class="- topic/p ">A project is the top organizational element in the Radiant software design
+                environment. Projects consist of design, constraint, configuration and analysis
+                files. Only one project can be open at a time, and a single project can include
+                multiple design structures and tool settings.</p>
+            <p class="- topic/p ">The Project menu commands enable you to do the following: <ul class="- topic/ul " id="unique_10_Connect_42_ul_hzw_45s_fyb" nd:nd-id="ul_hzw_45s_fyb">
+                    <li class="- topic/li ">Examine the project properties.</li>
+                    <li class="- topic/li ">Change the target device.</li>
+                    <li class="- topic/li ">Change the severity level of warning messages</li>
+                    <li class="- topic/li ">Set the synthesis tool</li>
+                    <li class="- topic/li ">Show the active strategy tool settings</li>
+                    <li class="- topic/li ">Set the top level design unit.</li>
+                </ul></p>
+            <p class="- topic/p "/>
+        </section>
+        <section class="- topic/section " id="unique_10_Connect_42_section_ccq_x5s_fyb" nd:nd-id="section_ccq_x5s_fyb">
+            <title class="- topic/title ">Implementations</title>
+            <p class="- topic/p ">An implementation is the structure of a design and can be thought of as what is in
+                the design. For example, one implementation might use inferred memory while another
+                implementation uses instantiated memory. Implementations also define the constraint
+                and analysis parameters for a project.</p>
+            <p class="- topic/p ">There can be multiple implementations in a project, but only one implementation can
+                be active at a time. And there must be one active implementation. Every
+                implementation has an associated active strategy. Strategies are a shared pool of
+                resources for all implementations and are discussed in the next section. An
+                implementation is created whenever you create a new project.</p>
+        </section>
+    </conbody>
+    <related-links class="- topic/related-links ">
+        <link class="- topic/link " href="#unique_11" type="task"><?ditaot gentext?><linktext class="- topic/linktext ">Adding Implementations</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">This section describes how to add implementations.</desc></link>
+        <link class="- topic/link " href="#unique_12" type="task"><?ditaot gentext?><linktext class="- topic/linktext ">Cloning Implementations</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">This section describes how to clone implementations. </desc></link>
+    </related-links>
+<task class="- topic/topic task/task " id="unique_11" topicrefclass="- map/topicref " nd:nd-id="adding_implementations" oid="adding_implementations" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Adding Implementations</ph></title>
+    <shortdesc class="- topic/shortdesc ">This section describes how to add implementations.</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">To add a new implementation to an existing project:, follow these steps:</p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Right-click the project name in the File List project view.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Select <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;15:42" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/adding_implementations.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Add</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">New Implementation</uicontrol></menucascade>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the <wintitle class="+ topic/keyword ui-d/wintitle ">New Implementation</wintitle> dialog box, set the
+                    implementation name, directory, and default strategy.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">To browse for the source files or use a source from an existing implementation,
+                    click on <uicontrol class="+ topic/ph ui-d/uicontrol ">Add Source</uicontrol>. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task><task class="- topic/topic task/task " id="unique_12" topicrefclass="- map/topicref " nd:nd-id="untitled14" oid="untitled14" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Cloning Implementations</ph></title>
+    <shortdesc class="- topic/shortdesc ">This section describes how to clone implementations. </shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">To clone an implementation, follow these steps:</p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the File List view, right-click on the name of the implementation that you
+                    want to copy and choose <uicontrol class="+ topic/ph ui-d/uicontrol ">Clone Implementation</uicontrol>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the <wintitle class="+ topic/keyword ui-d/wintitle ">Clone Implementation</wintitle>dialog box, enter a name for
+                    the new implementation. This name also becomes the default name for the folder
+                    of the implementation.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Change the name of the implementation’s folder in the Directory text box, if
+                    desired.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Decide how you want to handle files that are outside of the original
+                    implementation directory. Select one of the following options:</cmd>
+                <choices class="- topic/ul task/choices " id="unique_12_Connect_42_choices_p3p_pzs_fyb" nd:nd-id="choices_p3p_pzs_fyb">
+                    <choice class="- topic/li task/choice ">Continue to use the existing references</choice>
+                    <choice class="- topic/li task/choice ">Copy files to new implementation source directory</choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task></concept></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d134e157" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Radiance Software Design Flow</ph></title><concept class="- topic/topic concept/concept " id="unique_13" topicrefclass="- map/topicref " nd:nd-id="software_design_flow_overview" oid="software_design_flow_overview" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Software Design Flow Overview</ph></title>
+    <shortdesc class="- topic/shortdesc ">This chapter describes the design flow in the Radiant software. Running processes and
+        controlling the flow for alternate what-if scenarios are explained.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The FPGA implementation design flow in the Radiant software provides extensive what-if
+            analysis capabilities for your design. The design flow is displayed in the Task Detail
+            View at the right end of the Process Toolbar.</p>
+        <fig class="- topic/fig " id="unique_13_Connect_42_fig_tfh_2jw_fyb" nd:nd-id="fig_tfh_2jw_fyb"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Figure 54. Design Flow in Task Detail View</ph></title><image class="- topic/image " dita-ot:image-width="267" dita-ot:image-height="299" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/designflowscreen.png" id="unique_13_Connect_42_image_ufh_2jw_fyb" nd:nd-id="image_ufh_2jw_fyb" placement="inline"/></fig>
+    </conbody>
+</concept></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d134e170" topicrefclass="+ map/topicref mapgroup-d/topichead " audience="expert"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Advanced Topics</ph></title><concept class="- topic/topic concept/concept " id="unique_14" topicrefclass="- map/topicref " audience="expert" nd:nd-id="radiant_software_advanced_features" oid="radiant_software_advanced_features" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Radiant Software Advanced Features</ph></title>
+    <shortdesc class="- topic/shortdesc ">This chapter explains advanced concepts, features and operational methods for the
+        Radiant software.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The Radiant software has the following advanced features and operational methods:<ul class="- topic/ul " id="unique_14_Connect_42_ul_jxx_vkp_fyb" nd:nd-id="ul_jxx_vkp_fyb">
+                <li class="- topic/li ">Shared memory environment</li>
+                <li class="- topic/li ">Customizable environment and tool options</li>
+                <li class="- topic/li ">Batch tool operation</li>
+                <li class="- topic/li ">Project archiving</li>
+            </ul></p>
+    </conbody>
+<concept class="- topic/topic concept/concept " id="unique_15" topicrefclass="- map/topicref " audience="expert" nd:nd-id="shared_memory_environment" oid="shared_memory_environment" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Shared Memory Environment</ph></title>
+    <shortdesc class="- topic/shortdesc ">This section describes the shared memory environment features for expert Radiant
+        software users.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The Radiant software design environment uses a shared memory architecture. Shared memory
+            allows all internal tool views to access the same image of the design at any point in
+            time. Understanding how shared memory is being used can give you insight into managing
+            the environment for optimum performance, especially when your design is large.</p>
+        <p class="- topic/p ">There is one shared database that contains the device, design, and constraint information
+            in system memory.</p>
+        <p class="- topic/p ">Generating the hierarchy of your design uses an additional database separate from the
+            primary shared memory database.</p>
+        <p class="- topic/p ">External tools referenced from within the Radiant software, such as those for synthesis
+            and simulation, use their own memory in addition to what is used by the Radiant
+            software. </p>
+        <p class="- topic/p ">Because it is accessing shared memory, the initial tool view launch will take longer than
+            the launch of subsequent views.</p>
+    </conbody>
+<concept class="- topic/topic concept/concept " id="unique_16" topicrefclass="- map/topicref " audience="expert" nd:nd-id="clear_tool_memory" oid="clear_tool_memory" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Clear Tool Memory</ph></title>
+    <shortdesc class="- topic/shortdesc ">This section describes the Clear Tool Memory feature for expert Radiant software
+        users.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The “Clear Tool Memory command, available from the Tools menu, clears the device, design,
+            and constraint information from system memory. Clearing the tool memory can speed up
+            memory-intensive processes such as place and route. When your design is very large, it
+            is good practice to clear memory prior to running place and route.</p>
+        <p class="- topic/p ">If you have open tool views that will be affected by clearing the tool memory, a
+            confirmation dialog box will open to give you the opportunity to cancel the memory
+            clear</p>
+    </conbody>
+</concept></concept></concept></topic></map>

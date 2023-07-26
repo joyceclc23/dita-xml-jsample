@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?><css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop" xmlns:css="http://www.w3.org/1998/CSS"><css:pages><css:page><css:footnote><css:property name="border-top-style" value="solid"/><css:property name="border-top-color" value="black"/><css:property name="border-top-width" value="thin"/><css:property name="padding-top" value="8pt"/></css:footnote></css:page><css:page><css:property name="padding-top" value="0.2em"/><css:property name="padding-bottom" value="0.2em"/><css:property name="width" value="8.5in"/><css:property name="height" value="11.0in"/><css:property name="margin-top" value="1in"/><css:property name="margin-right" value="1in"/><css:property name="margin-left" value="1in"/><css:property name="margin-bottom" value="1in"/></css:page><css:page><css:property name="font-size" value="8pt"/></css:page><css:page><css:property name="font-size" value="10pt"/><css:property name="font-family" value="Roboto , sans-serif"/></css:page><css:page pseudo="left "><css:top-left><css:property name="content"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:property></css:top-left></css:page><css:page pseudo="right "><css:top-right><css:property name="content"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:property></css:top-right></css:page><css:page pseudo="blank "><css:top-left><css:property name="content"/></css:top-left><css:top-right><css:property name="content"/></css:top-right></css:page><css:page name="front-page"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner></css:page><css:page name="table-of-contents"><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right></css:page><css:page name="index"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-left><css:property name="content"/></css:top-left><css:top-right><css:property name="content"/></css:top-right><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:top-center><css:property name="content"/></css:top-center><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner><css:bottom-center><css:property name="content"><css:counter format="lower-alpha" name="page"/></css:property><css:property name="font-size" value="11pt"/></css:bottom-center></css:page><css:page name="index"><css:property name="column-count" value="2"/><css:property name="column-fill" value="auto"/></css:page><css:page name="chapter"/><css:page name="matter-page"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-center><css:property name="content"/></css:top-center><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner></css:page><css:page name="portrait-page"><css:property name="orientation" value="portrait"/></css:page><css:page name="table-of-contents" pseudo="left "><css:top-left><css:property name="content"><css:string name="toc-header" position="first"/><css:text> | </css:text><css:counter format="lower-roman" name="page"/></css:property></css:top-left></css:page><css:page name="table-of-contents" pseudo="right "><css:top-right><css:property name="content"><css:string name="toc-header" position="first"/><css:text> | </css:text><css:counter format="lower-roman" name="page"/></css:property></css:top-right></css:page><css:page name="matter-page" pseudo="left "><css:top-left><css:property name="content"><css:counter format="lower-roman" name="page"/></css:property></css:top-left></css:page><css:page name="matter-page" pseudo="right "><css:top-right><css:property name="content"><css:counter format="lower-roman" name="page"/></css:property></css:top-right></css:page><css:page name="landscape-page" pseudo="right "><css:property name="orientation" value="landscape"/><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:right-bottom><css:property name="content"><css:reference-orientation-container-pmb reference-orientation="270"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:reference-orientation-container-pmb></css:property><css:property name="vertical-align" value="middle"/><css:property name="text-align" value="right"/></css:right-bottom></css:page><css:page name="landscape-page" pseudo="left "><css:property name="orientation" value="landscape"/><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:right-top><css:property name="content"><css:reference-orientation-container-pmb reference-orientation="270"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:reference-orientation-container-pmb></css:property><css:property name="vertical-align" value="middle"/><css:property name="text-align" value="left"/></css:right-top></css:page><css:page name="table-of-contents" pseudo="first left "><css:top-left><css:property name="content"/></css:top-left></css:page><css:page name="table-of-contents" pseudo="first right "><css:top-right><css:property name="content"/></css:top-right></css:page><css:page name="chapter" pseudo="first left "><css:top-left><css:property name="content"/></css:top-left></css:page><css:page name="chapter" pseudo="first right "><css:top-right><css:property name="content"/></css:top-right></css:page></css:pages><css:page-sequence initial-page-number="1" page="front-page"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap">
+    <head css:border-bottom-color="white" css:border-bottom-style="solid" css:border-bottom-width="1pt" css:border-left-color="white" css:border-left-style="solid" css:border-left-width="1pt" css:border-right-color="white" css:border-right-style="solid" css:border-right-width="1pt" css:border-top-color="white" css:border-top-style="solid" css:border-top-width="1pt" css:display="none" css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em" css:padding-top="1em">
+        <meta content="text/html; charset=UTF-8" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" http-equiv="Content-Type"/>
+        <meta charset="UTF-8" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px"/>
+        <meta content="(C) Copyright 2023" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+        <meta content="(C) Copyright 2023" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.rights.owner"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css" rel="stylesheet" type="text/css"/>
+        <meta content="DITA-OT" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="generator"/>
+        <meta content="map" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.type"/>
+        <meta content="HTML5" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.format"/>
+        <meta content="en" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.language"/>
+        <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid" css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none" css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Lattice Radiant Software User Guide</title>
+    </head>
+    <body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%">
+        <div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px">
+            <div class="wh_topic_body" css:display="block">
+                <div class="wh_topic_content" css:display="block" css:margin-bottom="80px">
+                    <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en">
+                        <div class="- front-page/front-page front-page" css:display="block"><css:before css:display="block" css:height="0.1px"><css:text/></css:before><div class="- front-page/front-page-title front-page-title" css:display="block" css:font-size="2em" css:font-weight="bold" css:line-height="1.5em" css:margin-top="3in" css:text-align="center">
+                                <div class="- topic/title title" css:bookmark-level="1" css:display="block" css:page-break-after="avoid"><css:string-set name="maptitle"><css:content source="text"/></css:string-set><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><css:oxy-pdf-meta-title><css:content source="text"/></css:oxy-pdf-meta-title>Lattice
+                                    Radiant Software User Guide</div>
+                            </div></div>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="table-of-contents"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><div class="- toc/toc toc" css:display="block">
+                            <div class="- toc/title title" css:bookmark-level="1" css:display="block" css:font-size="2em" css:margin-bottom="1em" empty="true"><css:string-set name="toc-header"><css:text>Contents</css:text></css:string-set><css:before css:display="inline"><css:text>Contents</css:text></css:before><css:bookmark-label><css:content source="before"/></css:bookmark-label></div>
+                            <div class="- topic/title title" css:display="none" css:page-break-after="avoid">Lattice Radiant Software User
+                                Guide</div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Introduction">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d134e14" css:text-align-last="justify" href="#d134e14"><css:before css:display="inline" css:link="#d134e14"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="1"/><css:text/><css:text>. </css:text></css:before>Introduction<css:after css:display="inline" css:link="#d134e14"><css:leader pattern="."/><css:target-counter url-fragment="d134e14"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_1" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="introduction_to_lattice_radiant_software">
+                                        <div appid="introduction_to_lattice_radiant_software" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_1" css:text-align-last="justify" href="#unique_1"><css:before css:display="inline" css:link="#unique_1"/>Introduction
+                                            to Lattice Radiant
+                                            Software<css:after css:display="inline" css:link="#unique_1"><css:leader pattern="."/><css:target-counter url-fragment="unique_1"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This user guide describes the main features, usage, and
+                                            key concepts of the Radiant software design environment.
+                                            It should be used in conjunction with the Release Notes
+                                            and reference documentation included with the product
+                                            software. The Release Notes document is also available
+                                            on the Lattice website and provides a list of supported
+                                            devices</div>
+                                    </div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_2" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="basic_design_prerequisites">
+                                        <div appid="basic_design_prerequisites" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_2" css:text-align-last="justify" href="#unique_2"><css:before css:display="inline" css:link="#unique_2"/>Basic
+                                            Design
+                                            Prerequisites<css:after css:display="inline" css:link="#unique_2"><css:leader pattern="."/><css:target-counter url-fragment="unique_2"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Using the Lattice Radiant software to create a basic
+                                            FPGA design requires the following prerequisite
+                                            knowledge and software installation and licensing:</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Getting Started">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d134e38" css:text-align-last="justify" href="#d134e38"><css:before css:display="inline" css:link="#d134e38"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="2"/><css:text/><css:text>. </css:text></css:before>Getting
+                                        Started<css:after css:display="inline" css:link="#d134e38"><css:leader pattern="."/><css:target-counter url-fragment="d134e38"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_3" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="how_to_run_the_radiant_software">
+                                        <div appid="how_to_run_the_radiant_software" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_3" css:text-align-last="justify" href="#unique_3"><css:before css:display="inline" css:link="#unique_3"/>Running
+                                            the Radiant
+                                            Software<css:after css:display="inline" css:link="#unique_3"><css:leader pattern="."/><css:target-counter url-fragment="unique_3"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This topic describes how to run the Radiant
+                                            software.</div>
+                                    </div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_4" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="creating_a_new_project">
+                                        <div appid="creating_a_new_project" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_4" css:text-align-last="justify" href="#unique_4"><css:before css:display="inline" css:link="#unique_4"/>Creating
+                                            a New
+                                            Project<css:after css:display="inline" css:link="#unique_4"><css:leader pattern="."/><css:target-counter url-fragment="unique_4"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This topic describes how to create a new project in the
+                                            Radiant software.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Design Environment Fundamentals">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d134e62" css:text-align-last="justify" href="#d134e62"><css:before css:display="inline" css:link="#d134e62"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="3"/><css:text/><css:text>. </css:text></css:before>Design
+                                        Environment
+                                        Fundamentals<css:after css:display="inline" css:link="#d134e62"><css:leader pattern="."/><css:target-counter url-fragment="d134e62"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_5" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="radiant_software_design_environment">
+                                        <div appid="radiant_software_design_environment" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_5" css:text-align-last="justify" href="#unique_5"><css:before css:display="inline" css:link="#unique_5"/>Radiant
+                                            Software Design
+                                            Environment<css:after css:display="inline" css:link="#unique_5"><css:leader pattern="."/><css:target-counter url-fragment="unique_5"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This chapter provides background and discussion on the
+                                            technology and methodology underlying the Radiant
+                                            software design environment.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="User Interface Operation">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d134e75" css:text-align-last="justify" href="#d134e75"><css:before css:display="inline" css:link="#d134e75"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="4"/><css:text/><css:text>. </css:text></css:before>User
+                                        Interface
+                                        Operation<css:after css:display="inline" css:link="#d134e75"><css:leader pattern="."/><css:target-counter url-fragment="d134e75"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_6" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="radiant_software_user_interface_operation">
+                                        <div appid="radiant_software_user_interface_operation" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_6" css:text-align-last="justify" href="#unique_6"><css:before css:display="inline" css:link="#unique_6"/>Radiant
+                                            Software User Interface Operation
+                                            <css:after css:display="inline" css:link="#unique_6"><css:leader pattern="."/><css:target-counter url-fragment="unique_6"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This chapter describes the user interface, controls,
+                                            and basic operation of the Radiant software layout you
+                                            choose.</div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_7" type="concept">
+                                        <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="start_page">
+                                            <div appid="start_page" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_7" css:text-align-last="justify" href="#unique_7"><css:before css:display="inline" css:link="#unique_7"/>Start
+                                                Page<css:after css:display="inline" css:link="#unique_7"><css:leader pattern="."/><css:target-counter url-fragment="unique_7"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc" css:display="none">This section describes the major
+                                                sections of the Start Page in the Radiant
+                                                software.</div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_8" type="concept">
+                                        <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="menus_and_toolbars">
+                                            <div appid="menus_and_toolbars" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_8" css:text-align-last="justify" href="#unique_8"><css:before css:display="inline" css:link="#unique_8"/>Menus
+                                                and
+                                                Toolbars<css:after css:display="inline" css:link="#unique_8"><css:leader pattern="."/><css:target-counter url-fragment="unique_8"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc" css:display="none">This section describes the
+                                                functionality of the menus and toolbars in the
+                                                Radiant software.</div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_9" type="concept">
+                                        <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="basic_ui_controls">
+                                            <div appid="basic_ui_controls" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_9" css:text-align-last="justify" href="#unique_9"><css:before css:display="inline" css:link="#unique_9"/>Basic
+                                                UI
+                                                Controls<css:after css:display="inline" css:link="#unique_9"><css:leader pattern="."/><css:target-counter url-fragment="unique_9"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc" css:display="none">This section describes the basic
+                                                UI controls for the Radiant software.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Working with Projects">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d134e122" css:text-align-last="justify" href="#d134e122"><css:before css:display="inline" css:link="#d134e122"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="5"/><css:text/><css:text>. </css:text></css:before>Working
+                                        with
+                                        Projects<css:after css:display="inline" css:link="#d134e122"><css:leader pattern="."/><css:target-counter url-fragment="d134e122"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_10" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="overview_of_project_and_implementation">
+                                        <div appid="overview_of_project_and_implementation" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_10" css:text-align-last="justify" href="#unique_10"><css:before css:display="inline" css:link="#unique_10"/>Overview
+                                            of Project and
+                                            Implementation<css:after css:display="inline" css:link="#unique_10"><css:leader pattern="."/><css:target-counter url-fragment="unique_10"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This chapter covers projects and their elements.
+                                            Implementations and strategies are explained and some
+                                            common project tasks are shown. </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_11" type="task">
+                                        <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="adding_implementations">
+                                            <div appid="adding_implementations" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_11" css:text-align-last="justify" href="#unique_11"><css:before css:display="inline" css:link="#unique_11"/>Adding
+                                                Implementations<css:after css:display="inline" css:link="#unique_11"><css:leader pattern="."/><css:target-counter url-fragment="unique_11"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc" css:display="none">This section describes how to add
+                                                implementations.</div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_12" type="task">
+                                        <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="untitled14">
+                                            <div appid="untitled14" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_12" css:text-align-last="justify" href="#unique_12"><css:before css:display="inline" css:link="#unique_12"/>Cloning
+                                                Implementations<css:after css:display="inline" css:link="#unique_12"><css:leader pattern="."/><css:target-counter url-fragment="unique_12"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc" css:display="none">This section describes how to
+                                                clone implementations. </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Radiance Software Design Flow">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d134e157" css:text-align-last="justify" href="#d134e157"><css:before css:display="inline" css:link="#d134e157"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="6"/><css:text/><css:text>. </css:text></css:before>Radiance
+                                        Software Design
+                                        Flow<css:after css:display="inline" css:link="#d134e157"><css:leader pattern="."/><css:target-counter url-fragment="d134e157"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_13" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="software_design_flow_overview">
+                                        <div appid="software_design_flow_overview" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_13" css:text-align-last="justify" href="#unique_13"><css:before css:display="inline" css:link="#unique_13"/>Software
+                                            Design Flow
+                                            Overview<css:after css:display="inline" css:link="#unique_13"><css:leader pattern="."/><css:target-counter url-fragment="unique_13"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This chapter describes the design flow in the Radiant
+                                            software. Running processes and controlling the flow for
+                                            alternate what-if scenarios are explained.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div audience="expert" class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Advanced Topics">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d134e170" css:text-align-last="justify" href="#d134e170"><css:before css:display="inline" css:link="#d134e170"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="7"/><css:text/><css:text>. </css:text></css:before>Advanced
+                                        Topics<css:after css:display="inline" css:link="#d134e170"><css:leader pattern="."/><css:target-counter url-fragment="d134e170"/></css:after></div>
+                                </div>
+                                <div audience="expert" class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_14" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="radiant_software_advanced_features">
+                                        <div appid="radiant_software_advanced_features" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_14" css:text-align-last="justify" href="#unique_14"><css:before css:display="inline" css:link="#unique_14"/>Radiant
+                                            Software Advanced
+                                            Features<css:after css:display="inline" css:link="#unique_14"><css:leader pattern="."/><css:target-counter url-fragment="unique_14"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">This chapter explains advanced concepts, features and
+                                            operational methods for the Radiant software.</div>
+                                    </div>
+                                    <div audience="expert" class="- map/topicref topicref" css:display="block" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_15" type="concept">
+                                        <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="shared_memory_environment">
+                                            <div appid="shared_memory_environment" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_15" css:text-align-last="justify" href="#unique_15"><css:before css:display="inline" css:link="#unique_15"/>Shared
+                                                Memory
+                                                Environment<css:after css:display="inline" css:link="#unique_15"><css:leader pattern="."/><css:target-counter url-fragment="unique_15"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc" css:display="none">This section describes the shared
+                                                memory environment features for expert Radiant
+                                                software users.</div>
+                                        </div>
+                                        <div audience="expert" class="- map/topicref topicref" css:display="none" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_16" type="concept">
+                                            <div class="- map/topicmeta topicmeta" css:display="none" data-topic-id="clear_tool_memory">
+                                                <div appid="clear_tool_memory" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                                <div class="- topic/navtitle navtitle" css:display="none" css:link="#unique_16" href="#unique_16">Clear
+                                                  Tool Memory</div>
+                                                <div class="- map/shortdesc shortdesc" css:display="none">This section describes the
+                                                  Clear Tool Memory feature for expert Radiant
+                                                  software users.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title1" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d134e14" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title1"><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="1"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="1"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="1"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Introduction</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title2" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_1" nd:nd-id="introduction_to_lattice_radiant_software" oid="introduction_to_lattice_radiant_software" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title2"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Introduction to Lattice Radiant
+                                        Software</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This user guide
+                                        describes the main features, usage, and key concepts of the
+                                        Radiant software design environment. It should be used in
+                                        conjunction with the Release Notes and reference
+                                        documentation included with the product software. The
+                                        Release Notes document is also available on the Lattice
+                                        website and provides a list of supported devices</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Lattice Radiant®
+                                        software is the leading-edge software design environment for
+                                        cost- sensitive, low-power Lattice Field Programmable Gate
+                                        Arrays (FPGA) architectures. The Radiant software integrated
+                                        tool environment provides a modern, comprehensive user
+                                        interface for controlling the Lattice Semiconductor FPGA
+                                        implementation process. Its combination of new and enhanced
+                                        features allows users to complete designs faster, more
+                                        easily, and with better results than ever before.</p>
+                                    <section class="- topic/section section" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_1_Connect_42_section_ds5_yzh_fyb" nd:nd-id="section_ds5_yzh_fyb">
+                                        <h3 class="- topic/title title sectiontitle" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.17em" css:font-weight="700" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label>Radiant
+                                            Software Overview</h3>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Radiant
+                                            software uses an expanded project-based design flow and
+                                            integrated tool views so that design alternatives and
+                                            what-if scenarios can easily be created and analyzed.
+                                            The Implementations and Strategies concepts provide a
+                                            convenient way for users to try alternate design
+                                            structures and manage multiple tool settings.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">System-level
+                                            information—including process flow, hierarchy, and file
+                                            lists—is available, along with integrated HDL code
+                                            checking and consolidated reporting features.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">A fast Timing
+                                            Analysis loop and Programmer provide capabilities in the
+                                            integrated framework. The cross-probing feature and the
+                                            shared memory architecture ensure fast performance and
+                                            better memory utilization.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Radiant
+                                            software is highly customizable and provides Tcl
+                                            scripting capabilities from either its built-in console
+                                            or from an external shell.</p>
+                                        <div class="- topic/p p" css:display="block" css:margin-top="1em">The Radiant software has many of
+                                            the same features as Lattice Diamond software, and adds
+                                            new features, such as:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_1_Connect_42_ul_gft_513_fyb" nd:nd-id="ul_gft_513_fyb">
+                                                <li class="- topic/li li" css:display="list-item">Constraints support utilizing industry standard
+                                                  SDC format.</li>
+                                                <li class="- topic/li li" css:display="list-item">Efficient, easy-to-use integrated graphical user
+                                                  interface (GUI) with a new look-and-feel that
+                                                  gives users more efficient access to popular
+                                                  tools.</li>
+                                                <li class="- topic/li li" css:display="list-item">Unified timing analysis engine with enhanced
+                                                  timing reports for faster design timing
+                                                  closure.</li>
+                                            </ul></div>
+                                    </section>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title3" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_2" nd:nd-id="basic_design_prerequisites" oid="basic_design_prerequisites" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title3"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Basic Design Prerequisites</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Using the
+                                        Lattice Radiant software to create a basic FPGA design
+                                        requires the following prerequisite knowledge and software
+                                        installation and licensing:</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Using the Lattice
+                                        Radiant software to create a basic FPGA design requires the
+                                        following prerequisite knowledge and software installation
+                                        and licensing:</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em"/>
+                                    <section class="- topic/section section" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_2_Connect_42_prereq_knowledge" nd:nd-id="prereq_knowledge">
+                                        <h3 class="- topic/title title sectiontitle" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.17em" css:font-weight="700" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label>Prerequisite
+                                            Knowledge</h3>
+                                        <div class="- topic/p p" css:display="block" css:margin-top="1em">To use the Lattice Radient
+                                            software, you will need the following knowledge:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_2_Connect_42_ul_kpg_xg3_fyb" nd:nd-id="ul_kpg_xg3_fyb">
+                                                <li class="- topic/li li" css:display="list-item">Basic knowledge of digital design</li>
+                                                <li class="- topic/li li" css:display="list-item">Basic knowledge of VHDL, Verilog HDL, System
+                                                  Verilog, or schematic tools </li>
+                                            </ul></div>
+                                    </section>
+                                    <section class="- topic/section section" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_2_Connect_42_prereq_software_licensing" nd:nd-id="prereq_software_licensing">
+                                        <h3 class="- topic/title title sectiontitle" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.17em" css:font-weight="700" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label>Prerequisite
+                                            Software and Licensing</h3>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">To use the
+                                            Lattice Radiant software, your system must first meet
+                                            the minimum Windows or Linux system requirements for
+                                            installation. Next, download and install the software
+                                            components. You must purchase a license for any
+                                            applicable software prior to using the software.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Lattice
+                                            Radiant software is available for download from the <a class="- topic/xref xref" css:color="rgb(51 , 122 , 183)" css:display="inline" css:link="https://www.latticesemi.com/latticeradiant" format="html" href="https://www.latticesemi.com/latticeradiant" rel="external noopener" scope="external" target="_blank">Lattice Radiant Downloads and Licensing web
+                                                page<css:after css:display="inline" css:font-style="italic" css:link="https://www.latticesemi.com/latticeradiant" css:oxy-alt-text=" "/></a>.
+                                            Click the <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">Downloads</span> tab. Some documents and downloads
+                                            are not visible. To view all items, log in to your
+                                            Lattice account. Follow the product download
+                                            instructions and uncompress the software.</p>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title4" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d134e38" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title4"><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="2"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="2"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="2"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Getting Started</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title5" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_3" nd:nd-id="how_to_run_the_radiant_software" oid="how_to_run_the_radiant_software" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title5"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Running the Radiant
+                                    Software</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This topic
+                                        describes how to run the Radiant software.</p>
+                                    <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">To run the
+                                            Radiant software, follow these steps:</p>
+                                    </section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Download the software from
+                                                  the Lattice software web page and install the
+                                                  software.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Select <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Radiant Software</strong> from the installation
+                                                  location. The default Start page appears, as shown
+                                                  in Figure 1.</span>
+                                                <div class="- topic/itemgroup task/info itemgroup info" css:display="block">
+                                                  <figure class="- topic/fig fig fignone" css:display="block" css:margin-bottom="1em" css:margin-left="40px" css:margin-right="40px" css:margin-top="1em" css:oxy-pdf-tag-type="Figure" id="unique_3_Connect_42_fig_dkw_cxl_fyb" nd:nd-id="fig_dkw_cxl_fyb">
+                                                  <div class="- topic/p p" css:display="block" css:margin-top="1em">
+                                                  <figure class="- topic/fig fig fignone" css:display="block" css:margin-bottom="1em" css:margin-left="40px" css:margin-right="40px" css:margin-top="1em" css:oxy-pdf-tag-type="Figure" id="unique_3_Connect_42_fig_wp5_myl_fyb" nd:nd-id="fig_wp5_myl_fyb"><figcaption class="- topic/title title figcap" css:display="block" css:font-style="normal" css:page-break-after="avoid" data-caption-side="top"><span class="figtitleprefix fig--title-label" css:display="inline">Figure<span class="fig--title-label-number" css:display="inline"> 1</span><span class="fig--title-label-punctuation" css:display="inline">. </span></span><span class="fig--title" css:display="inline"><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Figure 1. Default Start
+                                                  Page</span></span></figcaption><img xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" chfox:inch="true" class="- topic/image image" css:display="inline" css:image-resolution="96dpi" css:max-width="100%" dita-ot:image-height="357" dita-ot:image-width="642" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/screenshot1.png" id="unique_3_Connect_42_image_xp5_myl_fyb" nd:nd-id="image_xp5_myl_fyb" placement="inline" src="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/screenshot1.png"><css:content-on-element><css:uri extracted-image-height="357" extracted-image-width="642" uri="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/screenshot1.png"/></css:content-on-element></img></figure>
+                                                  </div>
+                                                  </figure>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                </div>
+                                <div class="wh_related_links" css:display="block">
+                                    <nav class="- topic/related-links related-links" css:border-top-color="rgb(204 , 204 , 204)" css:border-top-style="solid" css:border-top-width="1px" css:display="block" css:margin-top="0" css:padding-bottom="0.5em" css:padding-left="1.5em" css:padding-right="1.5em" css:padding-top="0.5em" role="navigation">
+                                        <div class="- topic/linklist linklist relinfo" css:display="block" css:margin-bottom="0" css:margin-top="0" outputclass="relinfo" xml:lang="en">
+                                            <strong css:display="block" css:font-weight="700" css:page-break-after="avoid">Related
+                                                information</strong>
+                                            <ul class="linklist" css:display="block" css:list-style-type="none" css:margin-bottom="0" css:margin-top="0" css:padding-left="0">
+                                                <li class="linklist" css:display="list-item" css:margin-bottom="0" css:margin-top="0"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline" css:link="#unique_4" css:oxy-alt-text="This topic describes how to create a new project in the Radiant software." href="#unique_4" title="This topic describes how to create a new project in the Radiant software." type="task">Creating a New
+                                                  Project<css:after css:display="inline" css:font-style="italic" css:link="#unique_4" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_4"/><css:text>)</css:text></css:after></a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title6" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_4" nd:nd-id="creating_a_new_project" oid="creating_a_new_project" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title6"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Creating a New Project</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This topic
+                                        describes how to create a new project in the Radiant
+                                        software.</p>
+                                    <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">A project
+                                        is a collection of all files necessary to create and
+                                        download your design to the selected device. The New Project
+                                        wizard guides you through the steps of specifying a project
+                                        name and location, selecting a target device, and adding
+                                        existing sources to the new project.<div class="- topic/note note note note_note" css:background-color="rgba(0 , 120 , 160 , 0.09)" css:background-image="url('file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/7905db3e6db01ebd2b30.svg')" css:background-position="0.5em 0.5em" css:background-repeat="no-repeat" css:border-bottom-color="rgb(0 , 120 , 160)" css:border-bottom-left-radius="11px" css:border-bottom-right-radius="11px" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(0 , 120 , 160)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(0 , 120 , 160)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(0 , 120 , 160)" css:border-top-left-radius="11px" css:border-top-right-radius="11px" css:border-top-style="solid" css:border-top-width="1px" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Note" css:padding-bottom="0.75em" css:padding-left="3em" css:padding-right="0.5em" css:padding-top="0.75em" id="unique_4_Connect_42_note_cvx_gym_fyb" nd:nd-id="note_cvx_gym_fyb"><span class="note__title" css:display="block" css:font-weight="700" css:page-break-after="avoid">Note:</span> Do not
+                                            place more than one project in the same
+                                            directory.</div><p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">To create a new project, follow
+                                            these steps:</p></section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <div class="- topic/ol task/steps ol steps" css:display="block">
+                                            <div class="- topic/li task/step li step p" css:display="block" css:margin-top="1em">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">From the Radiant main menu,
+                                                  click the <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">New
+                                                  Project</span>
+                                                  <img xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" chfox:inch="true" class="- topic/image image" css:display="inline" css:image-resolution="96dpi" css:max-width="100%" dita-ot:image-height="17" dita-ot:image-width="16" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/newprojectbutton.png" id="unique_4_Connect_42_image_rmq_scn_fyb" nd:nd-id="image_rmq_scn_fyb" placement="inline" src="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/newprojectbutton.png"><css:content-on-element><css:uri extracted-image-height="17" extracted-image-width="16" uri="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/newprojectbutton.png"/></css:content-on-element></img>
+                                                  button, or choose <span class="+ topic/ph ui-d/menucascade ph menucascade" css:display="inline"><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">File
+                                                  </span><abbr css:display="inline" css:font-weight="bold" title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">New</span><abbr css:display="inline" css:font-weight="bold" title="and then"> &gt;
+                                                  </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">Project
+                                                  </span></span>. </span>
+                                                <div class="- topic/itemgroup task/info itemgroup info" css:display="block">The New Project confirmation
+                                                  window opens, as shown in Figure 2.<figure class="- topic/fig fig fignone" css:display="block" css:margin-bottom="1em" css:margin-left="40px" css:margin-right="40px" css:margin-top="1em" css:oxy-pdf-tag-type="Figure" id="unique_4_Connect_42_fig_ttc_gcn_fyb" nd:nd-id="fig_ttc_gcn_fyb"><figcaption class="- topic/title title figcap" css:display="block" css:font-style="normal" css:page-break-after="avoid" data-caption-side="top"><span class="figtitleprefix fig--title-label" css:display="inline">Figure<span class="fig--title-label-number" css:display="inline"> 2</span><span class="fig--title-label-punctuation" css:display="inline">. </span></span><span class="fig--title" css:display="inline"><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Figure 2. New Project
+                                                  Confirmation Window</span></span></figcaption><img xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" chfox:inch="true" class="- topic/image image" css:display="inline" css:image-resolution="96dpi" css:max-width="100%" dita-ot:image-height="294" dita-ot:image-width="337" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/createprojscreen.png" id="unique_4_Connect_42_image_utc_gcn_fyb" nd:nd-id="image_utc_gcn_fyb" placement="inline" src="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/createprojscreen.png"><css:content-on-element><css:uri extracted-image-height="294" extracted-image-width="337" uri="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/createprojscreen.png"/></css:content-on-element></img></figure></div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="wh_related_links" css:display="block">
+                                    <nav class="- topic/related-links related-links" css:border-top-color="rgb(204 , 204 , 204)" css:border-top-style="solid" css:border-top-width="1px" css:display="block" css:margin-top="0" css:padding-bottom="0.5em" css:padding-left="1.5em" css:padding-right="1.5em" css:padding-top="0.5em" role="navigation">
+                                        <div class="- topic/linklist linklist relinfo" css:display="block" css:margin-bottom="0" css:margin-top="0" outputclass="relinfo" xml:lang="en">
+                                            <strong css:display="block" css:font-weight="700" css:page-break-after="avoid">Related
+                                                information</strong>
+                                            <ul class="linklist" css:display="block" css:list-style-type="none" css:margin-bottom="0" css:margin-top="0" css:padding-left="0">
+                                                <li class="linklist" css:display="list-item" css:margin-bottom="0" css:margin-top="0"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline" css:link="#unique_3" css:oxy-alt-text="This topic describes how to run the Radiant software." href="#unique_3" title="This topic describes how to run the Radiant software." type="task">Running the Radiant
+                                                  Software<css:after css:display="inline" css:font-style="italic" css:link="#unique_3" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_3"/><css:text>)</css:text></css:after></a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title7" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d134e62" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title7"><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="3"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="3"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="3"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Design Environment Fundamentals</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title8" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_5" nd:nd-id="radiant_software_design_environment" oid="radiant_software_design_environment" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title8"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Radiant Software Design
+                                        Environment</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This chapter
+                                        provides background and discussion on the technology and
+                                        methodology underlying the Radiant software design
+                                        environment.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Understanding some
+                                        of the fundamental concepts behind the Radiant software
+                                        framework technology will increase your proficiency with the
+                                        tool and allow you to quickly come up to speed on its
+                                        use.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Radiant
+                                        software is a next-generation software design environment
+                                        that uses a new project-based methodology. A single project
+                                        can contain multiple implementations and strategies to
+                                        provide easily managed alternate design structures and tool
+                                        settings</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The process flow
+                                        is managed at a system level with run management controls
+                                        and reporting. Context-sensitive views ensure that you only
+                                        see the data that is available for the current state in the
+                                        process flow.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The shared memory
+                                        technology enables many of the advanced functions in the
+                                        Radiant software. Easy cross-probing between tool views and
+                                        faster process loops are among the benefits.</p>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title9" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d134e75" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title9"><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="4"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="4"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="4"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">User Interface Operation</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title10" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_6" nd:nd-id="radiant_software_user_interface_operation" oid="radiant_software_user_interface_operation" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title10"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Radiant Software User Interface
+                                        Operation </span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This chapter
+                                        describes the user interface, controls, and basic operation
+                                        of the Radiant software layout you choose.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Radiant user
+                                        interface (UI) provides a comprehensive, integrated tool
+                                        environment. The UI is very flexible and configurable,
+                                        enabling you to store constraints for the layout you
+                                        choose.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em"/>
+                                </div>
+                                <div class="wh_related_links" css:display="block">
+                                    <nav class="- topic/related-links related-links" css:border-top-color="rgb(204 , 204 , 204)" css:border-top-style="solid" css:border-top-width="1px" css:display="block" css:margin-top="0" css:padding-bottom="0.5em" css:padding-left="1.5em" css:padding-right="1.5em" css:padding-top="0.5em" role="navigation">
+                                        <div class="- topic/linklist linklist relinfo" css:display="block" css:margin-bottom="0" css:margin-top="0" outputclass="relinfo" xml:lang="en">
+                                            <strong css:display="block" css:font-weight="700" css:page-break-after="avoid">Related
+                                                information</strong>
+                                            <ul class="linklist" css:display="block" css:list-style-type="none" css:margin-bottom="0" css:margin-top="0" css:padding-left="0">
+                                                <li class="linklist" css:display="list-item" css:margin-bottom="0" css:margin-top="0"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline" css:link="#unique_7" css:oxy-alt-text="This section describes the major sections of the Start Page in the Radiant software." href="#unique_7" title="This section describes the major sections of the Start Page in the Radiant software." type="concept">Start
+                                                  Page<css:after css:display="inline" css:font-style="italic" css:link="#unique_7" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_7"/><css:text>)</css:text></css:after></a></li>
+                                                <li class="linklist" css:display="list-item" css:margin-bottom="0" css:margin-top="0"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline" css:link="#unique_8" css:oxy-alt-text="This section describes the functionality of the menus and toolbars in the Radiant software." href="#unique_8" title="This section describes the functionality of the menus and toolbars in the Radiant software." type="concept">Menus and
+                                                  Toolbars<css:after css:display="inline" css:font-style="italic" css:link="#unique_8" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_8"/><css:text>)</css:text></css:after></a></li>
+                                                <li class="linklist" css:display="list-item" css:margin-bottom="0" css:margin-top="0"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline" css:link="#unique_9" css:oxy-alt-text="This section describes the basic UI controls for the Radiant software." href="#unique_9" title="This section describes the basic UI controls for the Radiant software." type="concept">Basic UI
+                                                  Controls<css:after css:display="inline" css:font-style="italic" css:link="#unique_9" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_9"/><css:text>)</css:text></css:after></a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <article aria-labelledby="ariaid-title11" class="- topic/topic concept/concept topic concept nested2" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_7" nd:nd-id="start_page" oid="start_page" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                    <h3 class="- topic/title title topictitle3" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.4em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid" id="ariaid-title11"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Start Page</span></h3>
+                                    <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This section
+                                            describes the major sections of the Start Page in the
+                                            Radiant software.</p>
+                                        <div class="- topic/p p" css:display="block" css:margin-top="1em">The Start Page contains the
+                                            following three major sections:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_7_Connect_42_ul_dfz_r2p_fyb" nd:nd-id="ul_dfz_r2p_fyb">
+                                                <li class="- topic/li li" css:display="list-item"><strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Project</strong>: This section allows you to
+                                                  create a new project; open an existing Project,
+                                                  and open an example.</li>
+                                                <li class="- topic/li li" css:display="list-item"><strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Information Center</strong>: This section has
+                                                  links to Getting Started, Tutorials, User Guides,
+                                                  and Support Center.</li>
+                                                <li class="- topic/li li" css:display="list-item"><strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Recent
+                                                  Project List</strong>: Provides a quick way to
+                                                  load a recent project you’ve been working on.</li>
+                                            </ul></div>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Start Page
+                                            appears in the View area by default when the Radiant
+                                            software is first launched, and can be opened from the
+                                            View tab on the menu. The Start Page can be closed,
+                                            opened, detached, and attached using the Attach
+                                            button.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em"> See <a class="- topic/xref xref" css:color="rgb(51 , 122 , 183)" css:display="inline" css:link="#unique_9" css:oxy-alt-text="This section describes the basic UI controls for the Radiant software." href="#unique_9" title="This section describes the basic UI controls for the Radiant software." type="concept">Basic UI
+                                                Controls<css:after css:display="inline" css:font-style="italic" css:link="#unique_9" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_9"/><css:text>)</css:text></css:after></a>.</p>
+                                    </div>
+                                </article>
+                                <article aria-labelledby="ariaid-title12" class="- topic/topic concept/concept topic concept nested2" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_8" nd:nd-id="menus_and_toolbars" oid="menus_and_toolbars" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                    <h3 class="- topic/title title topictitle3" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.4em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid" id="ariaid-title12"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Menus and Toolbars</span></h3>
+                                    <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This section
+                                            describes the functionality of the menus and toolbars in
+                                            the Radiant software.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">At the top of
+                                            the main window is the menu and toolbar area. High-level
+                                            controls for accessing tools, managing files and
+                                            projects, and controlling the layout are contained here.
+                                            All toolbar functionality is also contained in the
+                                            menus. The menus also have functions for system, project
+                                            and toolbar control.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Process
+                                            Toolbar lists all the processes available, such as
+                                            Synthesize Design, Map Design, Place &amp; Route Design,
+                                            and Export Files. A process is a specific task in the
+                                            overall processing of a source or project. You can view
+                                            the available processes for a design in the Process
+                                            Toolbar. Click Task Detail View to see detailed
+                                            information of the processes available.</p>
+                                    </div>
+                                </article>
+                                <article aria-labelledby="ariaid-title13" class="- topic/topic concept/concept topic concept nested2" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_9" nd:nd-id="basic_ui_controls" oid="basic_ui_controls" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                    <h3 class="- topic/title title topictitle3" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.4em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid" id="ariaid-title13"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Basic UI Controls</span></h3>
+                                    <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This section
+                                            describes the basic UI controls for the Radiant
+                                            software.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Radiant
+                                            software environment is based on modern industry
+                                            standard user interface concepts. The menus, toolbars,
+                                            and mouse pointer all behave in familiar ways. You can
+                                            resize any of the window panes, drag and drop elements,
+                                            right-click a design element to see available actions,
+                                            and hold the mouse pointer over an object to view the
+                                            tool tip. Window panes can also be detached from the
+                                            main window and operated as independent windows.</p>
+                                    </div>
+                                </article>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title14" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d134e122" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title14"><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="5"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="5"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="5"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Working with Projects</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title15" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_10" nd:nd-id="overview_of_project_and_implementation" oid="overview_of_project_and_implementation" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title15"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Overview of Project and
+                                        Implementation</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This chapter
+                                        covers projects and their elements. Implementations and
+                                        strategies are explained and some common project tasks are
+                                        shown. </p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em"/>
+                                    <section class="- topic/section section" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_10_Connect_42_section_z4c_5ts_fyb" nd:nd-id="section_z4c_5ts_fyb">
+                                        <h3 class="- topic/title title sectiontitle" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.17em" css:font-weight="700" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label>Projects</h3>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">A project is
+                                            the top organizational element in the Radiant software
+                                            design environment. Projects consist of design,
+                                            constraint, configuration and analysis files. Only one
+                                            project can be open at a time, and a single project can
+                                            include multiple design structures and tool
+                                            settings.</p>
+                                        <div class="- topic/p p" css:display="block" css:margin-top="1em">The Project menu commands enable
+                                            you to do the following: <ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_10_Connect_42_ul_hzw_45s_fyb" nd:nd-id="ul_hzw_45s_fyb">
+                                                <li class="- topic/li li" css:display="list-item">Examine the project properties.</li>
+                                                <li class="- topic/li li" css:display="list-item">Change the target device.</li>
+                                                <li class="- topic/li li" css:display="list-item">Change the severity level of warning
+                                                  messages</li>
+                                                <li class="- topic/li li" css:display="list-item">Set the synthesis tool</li>
+                                                <li class="- topic/li li" css:display="list-item">Show the active strategy tool settings</li>
+                                                <li class="- topic/li li" css:display="list-item">Set the top level design unit.</li>
+                                            </ul></div>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em"/>
+                                    </section>
+                                    <section class="- topic/section section" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_10_Connect_42_section_ccq_x5s_fyb" nd:nd-id="section_ccq_x5s_fyb">
+                                        <h3 class="- topic/title title sectiontitle" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.17em" css:font-weight="700" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label>Implementations</h3>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">An
+                                            implementation is the structure of a design and can be
+                                            thought of as what is in the design. For example, one
+                                            implementation might use inferred memory while another
+                                            implementation uses instantiated memory. Implementations
+                                            also define the constraint and analysis parameters for a
+                                            project.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">There can be
+                                            multiple implementations in a project, but only one
+                                            implementation can be active at a time. And there must
+                                            be one active implementation. Every implementation has
+                                            an associated active strategy. Strategies are a shared
+                                            pool of resources for all implementations and are
+                                            discussed in the next section. An implementation is
+                                            created whenever you create a new project.</p>
+                                    </section>
+                                </div>
+                                <div class="wh_related_links" css:display="block">
+                                    <nav class="- topic/related-links related-links" css:border-top-color="rgb(204 , 204 , 204)" css:border-top-style="solid" css:border-top-width="1px" css:display="block" css:margin-top="0" css:padding-bottom="0.5em" css:padding-left="1.5em" css:padding-right="1.5em" css:padding-top="0.5em" role="navigation">
+                                        <div class="- topic/linklist linklist relinfo" css:display="block" css:margin-bottom="0" css:margin-top="0" outputclass="relinfo" xml:lang="en">
+                                            <strong css:display="block" css:font-weight="700" css:page-break-after="avoid">Related
+                                                information</strong>
+                                            <ul class="linklist" css:display="block" css:list-style-type="none" css:margin-bottom="0" css:margin-top="0" css:padding-left="0">
+                                                <li class="linklist" css:display="list-item" css:margin-bottom="0" css:margin-top="0"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline" css:link="#unique_11" css:oxy-alt-text="This section describes how to add implementations." href="#unique_11" title="This section describes how to add implementations." type="task">Adding
+                                                  Implementations<css:after css:display="inline" css:font-style="italic" css:link="#unique_11" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_11"/><css:text>)</css:text></css:after></a></li>
+                                                <li class="linklist" css:display="list-item" css:margin-bottom="0" css:margin-top="0"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline" css:link="#unique_12" css:oxy-alt-text="This section describes how to clone implementations." href="#unique_12" title="This section describes how to clone implementations." type="task">Cloning
+                                                  Implementations<css:after css:display="inline" css:font-style="italic" css:link="#unique_12" css:oxy-alt-text=" "><css:text> (on page </css:text><css:target-counter url-fragment="unique_12"/><css:text>)</css:text></css:after></a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <article aria-labelledby="ariaid-title16" class="- topic/topic task/task topic task nested2" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_11" nd:nd-id="adding_implementations" oid="adding_implementations" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                    <h3 class="- topic/title title topictitle3" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.4em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid" id="ariaid-title16"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Adding Implementations</span></h3>
+                                    <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This section
+                                            describes how to add implementations.</p>
+                                        <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">
+                                            <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">To add a
+                                                new implementation to an existing project:, follow
+                                                these steps:</p>
+                                        </section>
+                                        <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                            <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">Right-click the project name
+                                                  in the File List project view.</span>
+                                                </li>
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">Select <span class="+ topic/ph ui-d/menucascade ph menucascade" css:display="inline"><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">Add</span><abbr css:display="inline" css:font-weight="bold" title="and then"> &gt;
+                                                  </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">New
+                                                  Implementation</span></span>.</span>
+                                                </li>
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">In the <span class="+ topic/keyword ui-d/wintitle keyword wintitle" css:display="inline" css:font-weight="700">New
+                                                  Implementation</span> dialog box, set the
+                                                  implementation name, directory, and default
+                                                  strategy.</span>
+                                                </li>
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">To browse for the source
+                                                  files or use a source from an existing
+                                                  implementation, click on <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">Add
+                                                  Source</span>. </span>
+                                                </li>
+                                            </ol>
+                                        </section>
+                                    </div>
+                                </article>
+                                <article aria-labelledby="ariaid-title17" class="- topic/topic task/task topic task nested2" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_12" nd:nd-id="untitled14" oid="untitled14" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                    <h3 class="- topic/title title topictitle3" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.4em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid" id="ariaid-title17"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Cloning Implementations</span></h3>
+                                    <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This section
+                                            describes how to clone implementations. </p>
+                                        <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">
+                                            <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">To clone
+                                                an implementation, follow these steps:</p>
+                                        </section>
+                                        <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                            <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">In the File List view,
+                                                  right-click on the name of the implementation that
+                                                  you want to copy and choose <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="700">Clone
+                                                  Implementation</span>.</span>
+                                                </li>
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">In the <span class="+ topic/keyword ui-d/wintitle keyword wintitle" css:display="inline" css:font-weight="700">Clone
+                                                  Implementation</span>dialog box, enter a name for
+                                                  the new implementation. This name also becomes the
+                                                  default name for the folder of the
+                                                  implementation.</span>
+                                                </li>
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">Change the name of the
+                                                  implementation’s folder in the Directory text box,
+                                                  if desired.</span>
+                                                </li>
+                                                <li class="- topic/li task/step li step" css:display="list-item">
+                                                  <span class="- topic/ph task/cmd ph cmd" css:display="inline">Decide how you want to handle
+                                                  files that are outside of the original
+                                                  implementation directory. Select one of the
+                                                  following options:</span>
+                                                  <ul class="- topic/ul task/choices ul choices" css:display="block" css:list-style-type="circle" css:margin-bottom="0em" css:margin-top="0em" css:padding-left="40px" id="unique_12_Connect_42_choices_p3p_pzs_fyb" nd:nd-id="choices_p3p_pzs_fyb">
+                                                  <li class="- topic/li task/choice li choice" css:display="list-item">Continue to use the
+                                                  existing references</li>
+                                                  <li class="- topic/li task/choice li choice" css:display="list-item">Copy files to new
+                                                  implementation source directory</li>
+                                                  </ul>
+                                                </li>
+                                            </ol>
+                                        </section>
+                                    </div>
+                                </article>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title18" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d134e157" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title18"><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="6"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="6"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="6"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Radiance Software Design Flow</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title19" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_13" nd:nd-id="software_design_flow_overview" oid="software_design_flow_overview" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title19"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Software Design Flow
+                                    Overview</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This chapter
+                                        describes the design flow in the Radiant software. Running
+                                        processes and controlling the flow for alternate what-if
+                                        scenarios are explained.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The FPGA
+                                        implementation design flow in the Radiant software provides
+                                        extensive what-if analysis capabilities for your design. The
+                                        design flow is displayed in the Task Detail View at the
+                                        right end of the Process Toolbar.</p>
+                                    <figure class="- topic/fig fig fignone" css:display="block" css:margin-bottom="1em" css:margin-left="40px" css:margin-right="40px" css:margin-top="1em" css:oxy-pdf-tag-type="Figure" id="unique_13_Connect_42_fig_tfh_2jw_fyb" nd:nd-id="fig_tfh_2jw_fyb"><figcaption class="- topic/title title figcap" css:display="block" css:font-style="normal" css:page-break-after="avoid" data-caption-side="top"><span class="figtitleprefix fig--title-label" css:display="inline">Figure<span class="fig--title-label-number" css:display="inline"> 3</span><span class="fig--title-label-punctuation" css:display="inline">. </span></span><span class="fig--title" css:display="inline"><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Figure 54. Design Flow in
+                                                  Task Detail View</span></span></figcaption><img xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" chfox:inch="true" class="- topic/image image" css:display="inline" css:image-resolution="96dpi" css:max-width="100%" dita-ot:image-height="299" dita-ot:image-width="267" href="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/designflowscreen.png" id="unique_13_Connect_42_image_ufh_2jw_fyb" nd:nd-id="image_ufh_2jw_fyb" placement="inline" src="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/designflowscreen.png"><css:content-on-element><css:uri extracted-image-height="299" extracted-image-width="267" uri="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/images/designflowscreen.png"/></css:content-on-element></img></figure>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adyon/OneDrive/Desktop/ug%20samples/lattice_radiant_software_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" collection-type="-dita-use-conref-target" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title20" audience="expert" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d134e170" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title20"><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="7"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="7"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="7"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Advanced Topics</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title21" audience="expert" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_14" nd:nd-id="radiant_software_advanced_features" oid="radiant_software_advanced_features" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title21"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Radiant Software Advanced
+                                        Features</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This chapter
+                                        explains advanced concepts, features and operational methods
+                                        for the Radiant software.</p>
+                                    <div class="- topic/p p" css:display="block" css:margin-top="1em">The Radiant software has the following
+                                        advanced features and operational methods:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_14_Connect_42_ul_jxx_vkp_fyb" nd:nd-id="ul_jxx_vkp_fyb">
+                                            <li class="- topic/li li" css:display="list-item">Shared
+                                                memory environment</li>
+                                            <li class="- topic/li li" css:display="list-item">Customizable environment and tool options</li>
+                                            <li class="- topic/li li" css:display="list-item">Batch
+                                                tool operation</li>
+                                            <li class="- topic/li li" css:display="list-item">Project archiving</li>
+                                        </ul></div>
+                                </div>
+                                <article aria-labelledby="ariaid-title22" audience="expert" class="- topic/topic concept/concept topic concept nested2" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_15" nd:nd-id="shared_memory_environment" oid="shared_memory_environment" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                    <h3 class="- topic/title title topictitle3" css:bookmark-level="3" css:bookmark-state="closed" css:display="block" css:font-size="1.4em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H3" css:page-break-after="avoid" id="ariaid-title22"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Shared Memory
+                                        Environment</span></h3>
+                                    <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This section
+                                            describes the shared memory environment features for
+                                            expert Radiant software users.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The Radiant
+                                            software design environment uses a shared memory
+                                            architecture. Shared memory allows all internal tool
+                                            views to access the same image of the design at any
+                                            point in time. Understanding how shared memory is being
+                                            used can give you insight into managing the environment
+                                            for optimum performance, especially when your design is
+                                            large.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">There is one
+                                            shared database that contains the device, design, and
+                                            constraint information in system memory.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Generating the
+                                            hierarchy of your design uses an additional database
+                                            separate from the primary shared memory database.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">External tools
+                                            referenced from within the Radiant software, such as
+                                            those for synthesis and simulation, use their own memory
+                                            in addition to what is used by the Radiant software. </p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Because it is
+                                            accessing shared memory, the initial tool view launch
+                                            will take longer than the launch of subsequent
+                                            views.</p>
+                                    </div>
+                                    <article aria-labelledby="ariaid-title23" audience="expert" class="- topic/topic concept/concept topic concept nested3" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_16" nd:nd-id="clear_tool_memory" oid="clear_tool_memory" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                        <h4 class="- topic/title title topictitle4" css:bookmark-level="4" css:bookmark-state="closed" css:display="block" css:font-size="1.4em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H4" css:page-break-after="avoid" id="ariaid-title23"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Clear Tool Memory</span></h4>
+                                        <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                            <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">This section describes the
+                                                Clear Tool Memory feature for expert Radiant
+                                                software users.</p>
+                                            <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The “Clear
+                                                Tool Memory command, available from the Tools menu,
+                                                clears the device, design, and constraint
+                                                information from system memory. Clearing the tool
+                                                memory can speed up memory-intensive processes such
+                                                as place and route. When your design is very large,
+                                                it is good practice to clear memory prior to running
+                                                place and route.</p>
+                                            <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">If you
+                                                have open tool views that will be affected by
+                                                clearing the tool memory, a confirmation dialog box
+                                                will open to give you the opportunity to cancel the
+                                                memory clear</p>
+                                        </div>
+                                    </article>
+                                </article>
+                            </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html></css:page-sequence></css:root>
