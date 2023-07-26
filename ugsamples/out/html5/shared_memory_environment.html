@@ -1,0 +1,22 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2023"><meta name="copyright" content="(C) Copyright 2023"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="concept"><meta name="description" content="This section describes the shared memory environment features for expert Radiant software users."><meta name="DC.relation" scheme="URI" content="radiant_software_advanced_features.html"><meta name="DC.relation" scheme="URI" content="clear_tool_memory.html"><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="shared_memory_environment"><title>Shared Memory Environment</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="shared_memory_environment"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Shared Memory Environment</h1>
+    
+    <div class="body conbody"><p class="shortdesc">This section describes the shared memory environment features for expert Radiant
+        software users.</p>
+        <p class="p">The Radiant software design environment uses a shared memory architecture. Shared memory
+            allows all internal tool views to access the same image of the design at any point in
+            time. Understanding how shared memory is being used can give you insight into managing
+            the environment for optimum performance, especially when your design is large.</p>
+        <p class="p">There is one shared database that contains the device, design, and constraint information
+            in system memory.</p>
+        <p class="p">Generating the hierarchy of your design uses an additional database separate from the
+            primary shared memory database.</p>
+        <p class="p">External tools referenced from within the Radiant software, such as those for synthesis
+            and simulation, use their own memory in addition to what is used by the Radiant
+            software. </p>
+        <p class="p">Because it is accessing shared memory, the initial tool view launch will take longer than
+            the launch of subsequent views.</p>
+    </div>
+<nav role="navigation" class="related-links"><ul class="ullinks"><li class="link ulchildlink"><strong><a href="clear_tool_memory.html">Clear Tool Memory</a></strong><br>This section describes the Clear Tool Memory feature for expert Radiant software         users.</li></ul><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="radiant_software_advanced_features.html" title="This chapter explains advanced concepts, features and operational methods for the Radiant software.">Radiant Software Advanced Features</a></div></div></nav></article></main></body></html>
