@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="introduction_to_lattice_radiant_software"
+               path="introduction_to_lattice_radiant_software.html"/>
+   <appContext helpID="basic_design_prerequisites"
+               path="basic_design_prerequisites.html"/>
+   <appContext helpID="how_to_run_the_radiant_software"
+               path="how_to_run_the_radiant_software.html"/>
+   <appContext helpID="creating_a_new_project" path="creating_a_new_project.html"/>
+   <appContext helpID="radiant_software_design_environment"
+               path="radiant_software_design_environment.html"/>
+   <appContext helpID="radiant_software_user_interface_operation"
+               path="radiant_software_user_interface_operation.html"/>
+   <appContext helpID="start_page" path="start_page.html"/>
+   <appContext helpID="menus_and_toolbars" path="menus_and_toolbars.html"/>
+   <appContext helpID="basic_ui_controls" path="basic_ui_controls.html"/>
+   <appContext helpID="overview_of_project_and_implementation"
+               path="overview_of_project_and_implementation.html"/>
+   <appContext helpID="adding_implementations" path="adding_implementations.html"/>
+   <appContext helpID="untitled14" path="cloning_implementations.html"/>
+   <appContext helpID="software_design_flow_overview"
+               path="software_design_flow_overview.html"/>
+   <appContext helpID="radiant_software_advanced_features"
+               path="radiant_software_advanced_features.html"/>
+   <appContext helpID="shared_memory_environment"
+               path="shared_memory_environment.html"/>
+   <appContext helpID="clear_tool_memory" path="clear_tool_memory.html"/>
+</map>
